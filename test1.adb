@@ -6,10 +6,14 @@ procedure Test1 is
   C : Integer:=5;
   D : Integer:=20;
 begin
-   
-  D :=D+1;
+  A :=A+1;
+  D :=D+C;
   Put_line("Hello World!");
   Put("D is");
   PUt(D);
+  New_line(1);
+
+  Put("A is");
+  Put(A);
   New_line(1);
 end Test1;
